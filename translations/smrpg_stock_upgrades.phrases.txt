@@ -3,91 +3,109 @@
 	"regen"
 	{
 		"en"			"HP Regeneration"
+		"pl"                    "Regeneracja HP"
 	}
 	
 	"regen description"
 	{
 		"en"			"Regenerates HP regularly."
+		"pl"                    "Regeneruje HP regularnie."
 	}
 	
 	"health"
 	{
 		"en"			"Health+"
+		"pl"                    "Życie+"
 	}
 	
 	"health description"
 	{
 		"en"			"Increases your maximal health."
+		"pl"                    "Zwiększa Twoją maksymalną ilośc HP."
 	}
 	
 	"resup"
 	{
 		"en"			"Resupply"
+		"pl"                    "Zaopatrzenie"
 	}
 	
 	"resup description"
 	{
 		"en"			"Regenerates ammo every third second."
+		"pl"                    "Regeneruje Twoją amunicję co trzecią sekundę."
 	}
 	
 	"vamp"
 	{
 		"en"			"Vampire"
+		"pl"                    "Wampir"
 	}
 	
 	"vamp description"
 	{
 		"en"			"Steal HP from players when damaging them."
+		"pl"                    "Odbiera HP innym graczom podczas zadawania im obrażeń."
 	}
 	
 	"stealth"
 	{
 		"en"			"Stealth"
+		"pl"                    "Niewidzialność"
 	}
 	
 	"stealth description"
 	{
 		"en"			"Renders yourself more and more invisible."
+		"pl"                    "Zmniejsza Twoją widoczność."
 	}
 	
 	"ljump"
 	{
 		"en"			"Long Jump"
+		"pl"                    "Daleki skok"
 	}
 	
 	"ljump description"
 	{
 		"en"			"Boosts your jump speed."
+		"pl"                    "Zwiększa prędkość Twojego skoku."
 	}
 	
 	"fnade"
 	{
 		"en"			"Fire Grenade"
+		"pl"                    "Granat podpalający"
 	}
 	
 	"fnade description"
 	{
 		"en"			"Ignites players damaged by your grenade."
+		"pl"                    "Podpala graczy którym zadałeś obrażenia granatem."
 	}
 	
 	"icestab"
 	{
 		"en"			"Ice Stab"
+		"pl"                    "Mrożące uderzenie"
 	}
 	
 	"icestab description"
 	{
 		"en"			"Freeze a player in place when knifing him."
+		"pl"                    "Zamraża gracza w miejscu kiedy atakujesz go z noża."
 	}
 	
 	"fpistol"
 	{
 		"en"			"Frost Pistol"
+		"pl"                    "Mrożący Pistolet"
 	}
 	
 	"fpistol description"
 	{
 		"en"			"Slow down players hit with a pistol."
+		"pl"                    "Spowalnia graczy kiedy trafisz ich strzałem z pistoletu."
 	}
 	
 	"denial"
@@ -98,235 +116,282 @@
 	"denial description"
 	{
 		"en"			"Keep your weapons the next time you spawn after you've died."
+		"pl"                    "Zatrzymuje Twoje bronie przy następnym odrodzeniu po Twojej śmierci."
 	}
 	
 	"impulse"
 	{
 		"en"			"Impulse"
+		"pl"                    "Impuls"
 	}
 	
 	"impulse description"
 	{
 		"en"			"Gain speed for a short time when being shot."
+		"pl"                    "Zdobywasz zwiększoną predkość na krótki okres czasu kiedy otrzymujesz obrażenia."
 	}
 	
 	"medic"
 	{
 		"en"			"Medic"
+		"pl"                    "Medyk"
 	}
 	
 	"medic description"
 	{
 		"en"			"Heals team mates around you."
+		"pl"                    "Leczysz graczy ze swojej drużyny dookoła Ciebie."
 	}
 	
 	"speed"
 	{
 		"en"			"Speed+"
+		"pl"                    "Prędkość+"
 	}
 	
 	"speed description"
 	{
 		"en"			"Increase your average movement speed."
+		"pl"                    "Zwiększ Twoją średnią prędkość poruszania się."
 	}
   
 	"damage"
 	{
 		"en"			"Damage+"
+		"pl"                    "Obrażenia+"
 	}
 	
 	"damage description"
 	{
 		"en"			"Deal additional damage on enemies."
+		"pl"                    "Zadawaj dodatkowe obrażenia na wrogach."
 	}
 	
 	"armorregen"
 	{
 		"en"			"Armor Regeneration"
+		"pl"                    "Regeneracja Pancerza"
 	}
 	
 	"armorregen description"
 	{
 		"en"			"Regenerates armor regularly."
+		"pl"                    "Regeneruje Twój pancerz regularnie."
 	}
 	
 	"clipsize"
 	{
 		"en"			"Increase Clipsize"
+		"pl"                    "Zwiększ pojemnośc magazynka"
 	}
 	
 	"clipsize description"
 	{
 		"en"			"Increases the size of a weapon's clip."
+		"pl"                    "Zwiększa pojemność magazynka w broni."
 	}
 	
 	"shrinking"
 	{
 		"en"			"Shrinking"
+		"pl"                    "Zmniejszanie"
 	}
 	
 	"shrinking description"
 	{
 		"en"			"Makes your player model smaller and harder to hit."
+		"pl"                    "Sprawia, że Twój model postaci staję się mniejszy i trudniejszy do trafienia."
 	}
 	
 	"armorplus"
 	{
 		"en"			"Armor+"
+		"pl"                    "Pancerz+"
 	}
 	
 	"armorplus description"
 	{
 		"en"			"Increases your maximal armor."
+		"pl"                    "Zwiększa Twoją maksymalną ilość pancerza."
 	}
 	
 	"fastreload"
 	{
 		"en"			"Fast Reload"
+		"pl"                    "Szybkie przeładowanie"
 	}
 	
 	"fastreload description"
 	{
 		"en"			"Increases the reload speed of your guns."
+		"pl"                    "Zwiększa prędkość przeładowania Twoich broni."
 	}
 	
 	"firepistol"
 	{
 		"en"			"Fire Pistol"
+		"pl"                    "Pistolet Podpalający"
 	}
 	
 	"firepistol description"
 	{
 		"en"			"Ignites players hit with a pistol."
+		"pl"                    "Podpala innych graczy kiedy ich trafisz z pistoletu."
 	}
 	
 	"gravity"
 	{
 		"en"			"Reduced Gravity"
+		"pl"                    "Zmniejszona Grawitacja"
 	}
 	
 	"gravity description"
 	{
 		"en"			"Reduces your gravity and lets you jump higher."
+		"pl"                    "Zmniejsza Twoją grawitację i pozwala Ci skakać wyżej."
 	}
 	
 	"poisonsmoke"
 	{
 		"en"			"Poison Smoke"
+		"pl"                    "Gaz Trujący"
 	}
 	
 	"poisonsmoke description"
 	{
 		"en"			"Damages players inside the smoke of a smoke grenade"
+		"pl"                    "Zadaje obrażenia innym graczom którzy są w dymie granatu dymnego."
 	}
 	
 	"firerate"
 	{
 		"en"			"Increase firerate"
+		"pl"                    "Zwiększ szybkostrzelność
 	}
 	
 	"firerate description"
 	{
 		"en"			"Increases the firerate of weapons."
+		"pl"                    "Zwiększa szybkostrzelność broni."
 	}
 	
 	"icenade"
 	{
 		"en"			"Ice Grenade"
+		"pl"                    "Granat zamrażający"
 	}
 	
 	"icenade description"
 	{
 		"en"			"Freeze a player in place when damaging him with your grenade."
+		"pl"                    "Zamraża gracza w miejscu kiedy zadajesz mu obrażenia swoim granatem."
 	}
 	
 	"grenaderesup"
 	{
 		"en"			"Grenade Resupply"
+		"pl"                    "Odnowa granatów"
 	}
 	
 	"grenaderesup description"
 	{
 		"en"			"Regenerates grenades x seconds after you threw them."
+		"pl"                    "Regeneruje granaty x sekund po rzuceniu ich."
 	}
 	
 	"antidote"
 	{
 		"en"			"Antidote"
+		"pl"                    "Antidotum"
 	}
 	
 	"antidote description"
 	{
 		"en"			"Shorten the duration of bad effects like freezing, burning or slowdown on you."
+		"pl"                    "Skraca czas złych efektów, takich jak zamrożenie, podpalenie albo spowolnienie użytych na Tobie."
 	}
 	
 	"bouncybullets"
 	{
 		"en"			"Bouncy Bullets"
+		"pl"                    "Kule odpychające"
 	}
 	
 	"bouncybullets description"
 	{
 		"en"			"Push enemies away by shooting them."
+		"pl"                    "Odpycha wrogów strzelając w nich."
 	}
 	
 	"falldamage"
 	{
 		"en"			"Reduced Fall Damage"
+		"pl"                    "Zmniejszone obrażenia od wysokości"
 	}
 	
 	"falldamage description"
 	{
 		"en"			"Reduces the damage you take from falling from great heights."
+		"pl"                    "Zmniejsza obrażenie od upadku."
 	}
 	
 	"armorhelmet"
 	{
 		"en"			"Armor Helmet"
+		"pl"                    "Hełm""
 	}
 	
 	"armorhelmet description"
 	{
 		"en"			"Gives you a chance to get a helmet on spawn."
+		"pl"                    "Daje Ci szanse na zdobycie hełmu podczas respawnu."
 	}
 	
 	"antiflash"
 	{
 		"en"			"Antiflash"
+		"pl"                    "Antyflash"
 	}
 	
 	"antiflash description"
 	{
 		"en"			"Reduce blinding effect of flashbangs on you."
+		"pl"                    "Zmniejsza efekt oślepienia fleszy na Tobie."
 	}
 	
 	"adrenaline"
 	{
 		"en"			"Adrenaline"
+		"pl"                    "Adrenalina"
 	}
 	
 	"adrenaline description"
 	{
 		"en"			"Increase your speed shortly when firing a weapon."
+		"pl"                    "Zwiększa Twoją prędkośc krótko po oddaniu strzału."
 	}
 	
 	"mirrordmg"
 	{
 		"en"			"Mirror Damage"
+		"pl"                    "Lustrzane obrażenia"
 	}
 	
 	"mirrordmg description"
 	{
 		"en"			"Mirror some of your received damage back to the attacker."
+		"pl"                    "Odbija trochę Twoich obrażeń z powrotem do osoby atakującej."
 	}
 	
 	"positionswap"
 	{
 		"en"			"Position Swap"
+		"pl"                    "Zmiana pozycji"
 	}
 	
 	"positionswap description"
 	{
 		"en"			"Gives you the chance to swap positions with your attacker."
+		"pl"                    "Daje Ci szanse na zmiane pozycji z osobą która Cię atakuje."
 	}
 }
