@@ -3,6 +3,7 @@
   "Admin command resetdatabase"
   {
     "en"  "The database was wiped. All players are on level 1 again."
+    "pl" "Baza danych została wyczyszczona. Wszyscy gracze posiadają teraz 1 poziom."
   }
   "Stats reset when levels sum up to"
   {
@@ -10,6 +11,7 @@
     // 2: Levels remaining until the maximum is reached.
     "#format"  "{1:d},{2:d}"
     "en"  "The stats are reset when the levels of the top 10 players sum up to {1}. Still {2} levels left."
+    "pl" "Statystyki są resetowane kiedy poziomy 10 najlepszych graczych zsumują się do {2}. Potrzeba jeszcze {2} poziomów."
   }
   "Warning, your stats were reset on"
   {
@@ -18,20 +20,24 @@
     // 3: Year of the last reset of the player.
     "#format"  "{1:02d},{2:02d},{3:d}"
     "en"  "{RB}WARNING!{G} Your stats were {RB}reset on {N}{3}-{2}-{1}{G}."
+    "pl"  "{RB}UWAGA!{G} Twoje statystyki były {RB} zreseotwane {N}{3}-{2}-{1}{G}."
   }
   "The whole server got reset, so you're not the only one."
   {
     "en"  "The whole server got reset, so you're not the only one."
+    "pl" "Wszyscy gracze na serwerze zostali zresetowani, więc nie jesteś z tym sam."
   }
   "This is done automatically regularly."
   {
     "en"  "This is done automatically regularly. Type {N}nextreset{G} to see when it's time again."
+    "pl"  "Ten proces jest wykonywany automatycznie regularnie. Napisz {N}nextreset{G} aby zobaczyć kiedy będzie następny reset."
   }
   "Display global reset reason"
   {
     // 1: The reason for the last global reset
     "#format" "{1:s}"
     "en"  "Reason: {N}{1}"
+    "pl"  "Powód: {N}{1}"
   }
   "Last server reset"
   {
@@ -40,6 +46,7 @@
     // 3: Year of the last reset of the server.
     "#format"  "{1:02d},{2:02d},{3:d}"
     "en"  "The server stats were reset on {N}{3}-{2}-{1}{G}."
+    "pl"  "Statystyki na serwerze zostały zresetowane w dniu {N}{3}-{2}-{1}{G}."
   }
   "Last player reset"
   {
@@ -48,10 +55,12 @@
     // 3: Year of the last reset of the player.
     "#format"  "{1:02d},{2:02d},{3:d}"
     "en"  "Your stats were {RB}reset on {N}{3}-{2}-{1}{G}."
+    "pl"  "Twoje statystyki {rb} zresetowano dnia {N}{3}-{2}-{1}{G}."
   }
   "Timed reset today"
   {
     "en"  "The stats are going to be reset today."
+    "pl"  "Statystyki zostaną zresetowane dzisiaj."
   }
   "Timed reset in future"
   {
@@ -63,35 +72,42 @@
     // 6: Year of the next reset in the future.
     "#format"  "{1:s},{2:s},{3:s},{4:02d},{5:02d},{6:d}"
     "en"  "The stats are going to be {RB}reset{G} in{3}{2}{1} on {6}-{5}-{4}."
+    "pl"  "{RB}Reset{G} statystyk odbędzie się za {3}{2}{1} dnia {6}-{5}-{4}."
   }
   "One Day"
   {
     "en"  " 1 day"
+    "pl"  " 1 dzień"
   }
   "Days"
   {
     // 1: Days until stats are reset.
     "#format"  "{1:d}"
     "en"  " {1} days"
+    "pl"  " {1} dni"
   }
   "One Month"
   {
     "en"  " 1 month"
+    "pl"  " 1 miesiąc"
   }
   "Months"
   {
     // 1: Months until stats are reset.
     "#format"  "{1:d}"
     "en"  " {1} months"
+    "pl"  " {1} miesięcy"
   }
   "One Year"
   {
     "en"  " 1 year"
+    "pl"  " 1 rok"
   }
   "Years"
   {
     // 1: Years until stats are reset.
     "#format"  "{1:d}"
     "en"  " {1} years"
+    "pl"  " {1} lat"
   }
 }
