@@ -78,7 +78,7 @@
 	"Next ranked players"
 	{
 		"en"			"Next ranked players"
-	}
+	}       "pl"                    "Następni gracze w rankingu"
 	
 	"Player reached maxlevel"
 	{
@@ -86,6 +86,7 @@
 		// 2: Maximum level a player can reach.
 		"#format"	"{1:N},{2:d}"
 		"en"			"{1} reached the maximum level of {2} and was reset."
+		"pl"                    "{1} osiągnął maksymalny level {2} i został zresetowany"
 	}
 	
 	// Menu text
@@ -107,6 +108,7 @@
 	"Experience"
 	{
 		"en"			"Experience"
+		"pl"                    "Doświadczenie"
 	}
 	
 	"Credits"
@@ -114,6 +116,7 @@
 		// 1: Amount of credits the player has.
 		"#format" "{1:d}"
 		"en"			"Credits: {1}"
+		"pl"                    "Kredyty: {1}"
 	}
 	
 	"Rank"
@@ -129,6 +132,7 @@
 		// 1: date and time representation of the last time the stats were reset to 0 for this player
 		"#format"	"{1:s}"
 		"en"			"Last reset: {1}"
+		"pl"                    "Ostatni reset: {1}"
 	}
 	
 	"Experience Reason Other Client"
@@ -138,6 +142,7 @@
 		// 3: The name of the other client involved in the reason for this experience. (e.g. name of victim hurt)
 		"#format"	"{1:d},{2:s},{3:N}"
 		"en"			 "{1} exp. for \"{2}\" against {3}"
+		"pl"                     "{1} dostał {2} doświadczenia za zabójstwo gracza {3}
 	}
 	
 	"Experience Reason General"
@@ -145,22 +150,26 @@
 		// 1: The amount of experience added to a client.
 		// 2: The reason this experience was added for
 		"#format"	"{1:d},{2:s}"
-		"en"			 "{1} exp. for \"{2}\""
+		"en"			 "{1} exp. for \"{2}\"
+		"pl"                     "{1} dostał \"{2}\" doświadczenia za 
 	}
 	
 	"Nothing to display"
 	{
 		"en"			"There is nothing to display."
+		"pl"                    "Nie ma nic tutaj do wyświetlenia" 
 	}
 	
 	"Cost"
 	{
 		"en"			"Cost"
+		"pl"                    "Koszt"
 	}
 	
 	"Sale"
 	{
 		"en"			"Sale"
+		"pl"                    "Sprzedaż"
 	}
 	
 	"Is teamlocked"
@@ -168,6 +177,7 @@
 		// 1: The team name of the team the upgrade is restricted to.
 		"#format"		"{1:s}"
 		"en"			"TEAM {1} ONLY!"
+		"pl"                    "To ulepszenie jest tylko dla {1}!"
 	}
 	
 	"RPG menu buy upgrade entry max level"
@@ -275,6 +285,7 @@
 	"Session"
 	{
 		"en"			"Session"
+		"pl"                    "Sesja"
 	}
 	
 	"Playtime"
@@ -282,26 +293,31 @@
 		// 1: The time in hh:mm:ss the player is on the server since he joined.
 		"#format" "{1:s}"
 		"en"			"Session playtime: {1}"
+		"pl"                    "Czas spędzony na aktualnej sesji: {1}"
 	}
 	
 	"Changed level"
 	{
 		"en"			"Level change"
+		"pl"                    "Zmiana poziomu"
 	}
 	
 	"Changed experience"
 	{
 		"en"			"Experience change"
+		"pl"                    "Zmiana doświadczenia"
 	}
 	
 	"Changed credits"
 	{
 		"en"			"Credits change"
+		"pl"                    "Zmiana kredytów"
 	}
 	
 	"Changed rank"
 	{
 		"en"			"Rank change"
+		"pl"                    "Zmiana rankingu"
 	}
 	
 	// Menu Options
@@ -313,56 +329,67 @@
 	"Upgrades"
 	{
 		"en"			"Upgrades"
+		"pl"                    "Ulepszenia"
 	}
 	
 	"Sell"
 	{
 		"en"			"Sell"
+		"pl"                    "Sprzedaż"
 	}
 	
 	"Upgrade Settings"
 	{
 		"en"			"Upgrade Settings"
+		"pl"                    "Ustawienia ulepszeń"
 	}
 	
 	"Last Experience"
 	{
 		"en"			"Latest Experience Log"
+		"pl"                    "Najnowszy zapis logów dotyczących doświadczenia"
 	}
 	
 	"Stats"
 	{
 		"en"			"Stats"
+		"pl"                    "Statystyki"
 	}
 	
 	"Settings"
 	{
 		"en"			"Settings"
+		"pl"                    "Ustawienia"
 	}
 	
 	"Help"
 	{
 		"en"			"Help"
+		"pl"                    "Pomoc"
 	}
 	
 	"Reset Stats"
 	{
 		"en"			"Reset Stats"
+		"pl"                    "Reset statystyk"
 	}
 	
 	"Show menu on levelup"
 	{
 		"en"			"Show menu on levelup"
+		"pl"                    "Pokaż menu podczas zdobycia wyższego poziomu"
 	}
 	
 	"Fade screen on levelup"
 	{
 		"en"			"Flash screen on levelup"
+		"pl"                    "Błysk ekranu podczas zdobycia wyższego poziomu"
 	}
 	
 	"Auto refresh panel"
 	{
 		"en"			"Auto refresh"
+		"pl"                    "Automatyczne odświeżanie"
 	}
 	
 	// Menu selection result
@@ -374,6 +401,7 @@
 	"Maximum level reached"
 	{
 		"en"			"You have reached the maximum level for this upgrade."
+		"pl"                    "Osiągnąłeś maksymalny level tego ulepszenia"
 	}
 	
 	"Not enough credits"
@@ -383,6 +411,7 @@
 		// 3: The amount of credits this level of the upgrade costs.
 		"#format"	"{1:s},{2:d},{3:d}"
 		"en"			"You do not have enough credits to buy {1} level {2}. (Requires {3} credits)"
+		"pl"                    "Nie masz wystarczającej ilości kredytów żeby kupić {1} poziomu {2}. ( Potrzebujesz {3} kredytów)"
 	}
 	
 	"Upgrade bought"
@@ -391,6 +420,7 @@
 		// 2: The new level of this upgrade.
 		"#format"	"{1:s},{2:d}"
 		"en"			"{1} level {2} successfully purchased."
+		"pl"                    "Ulepszenie umiejętności {1} poziomu {2} przebiegło pomyślnie"
 	}
 	
 	"Upgrade purchase notification"
@@ -400,6 +430,7 @@
 		// 3: The new level of this upgrade.
 		"#format"	"{1:N},{2:s},{3:d}"
 		"en"			"{1} purchased {2} level {3}."
+		"pl"                    "{1} Kupił ulepszenie {2} poziomu {3}
 	}
 	
 	"Upgrade sold"
@@ -408,48 +439,57 @@
 		// 2: The new level of this upgrade.
 		"#format"	"{1:s},{2:d}"
 		"en"			"{1} level {2} has been sold."
+		"pl"                     "Ulepszenie {1} poziomu {2} został sprzedany."
 	}
 	
 	//Menu Confirm
 	"Are you sure?"
 	{
 		"en"			"Are you sure?"
+		"pl"                    "Jesteś pewien?"
 	}
 	
 	"Confirm stats reset"
 	{
 		"en"			"WARNING: You will lose all Levels, Credits, and Experience.\nReset stats permanently?"
+		"pl"                    "UWAGA: Stracisz wszystkie poziomy, kredyty oraz punkty doświadczenia. Zresetować statystyki na zawsze?"
 	}
 	
 	//Menu upgrade settings
 	"Enabled"
 	{
 		"en"			"Enabled"
+		"pl"                    "Włączone"
 	}
 	
 	"Selected level"
 	{
 		"en"			"Selected level"
+		"pl"                    "Wybrany poziom"
 	}
 	
 	"Increase selected level"
 	{
 		"en"			"Increase selected level"
+		"pl"                    "Zwiększ wybrany poziom"
 	}
 	
 	"Decrease selected level"
 	{
 		"en"			"Decrease selected level"
+		"pl"                    "Zmniejsz wybrany poziom"
 	}
 	
 	"Visual effects"
 	{
 		"en"			"Visual effects"
+		"pl"                    "Efekty wizualne"
 	}
 	
 	"Sound effects"
 	{
 		"en"			"Sound effects"
+		"pl"                    "Efekty dźwiękowe"
 	}
 	
 	
@@ -457,36 +497,43 @@
 	"Commands"
 	{
 		"en"			"Commands"
+		"pl"                    "Komendy"
 	}
 	
 	"Manage players"
 	{
 		"en"			"Manage players"
+		"pl"                    "Zarządzaj graczami"
 	}
 	
 	"Select player"
 	{
 		"en"			"Select player:"
+		"pl"                    "Wybierz gracza:"
 	}
 	
 	"Player Details"
 	{
 		"en"			"Player Details"
+		"pl"                    "Informacje gracza"
 	}
 	
 	"Manage stats"
 	{
 		"en"			"Manage RPG stats"
+		"pl"                    "Zarządzaj statystykami RPG"
 	}
 	
 	"Manage upgrades"
 	{
 		"en"			"Manage upgrades"
+		"pl"                    "Zarządzaj ulepszeniami"
 	}
 	
 	"Reset player"
 	{
 		"en"			"Reset player"
+		"pl"                    "Zresetuj gracza"
 	}
 	
 	"Confirm reset player"
@@ -494,6 +541,7 @@
 		// 1: Name of the player to reset stats of.
 		"#format"	"{1:N}"
 		"en"			"Do you really want to reset the stats and upgrades of {1}?"
+		"pl"                    "Czy na pewno chcesz zresetować statystyki i ulepszenia gracza {1}?"
 	}
 	
 	"Inform player reset"
@@ -501,31 +549,37 @@
 		// 1: Name of the player who's stats got reset.
 		"#format"	"{1:N}"
 		"en"			"{1}'s stats have been permanently reset."
+		"pl"                    "Statystyki gracza {1} zostały permanetnie zresetowane."
 	}
 	
 	"Change credits"
 	{
 		"en"			"Change credits"
+		"pl"                    "Zmień ilość kredytów"
 	}
 	
 	"Change experience"
 	{
 		"en"			"Change experience"
+		"pl"                    "Zmień ilość doświadczenia"
 	}
 	
 	"Change level"
 	{
 		"en"			"Change level"
+		"pl"                    "Zmień poziom"
 	}
 	
 	"Manage player upgrades"
 	{
 		"en"			"Manage player upgrades"
+		"pl"                    "Zarządzaj ulepszeniami gracza"
 	}
 	
 	"Give all upgrades free"
 	{
 		"en"			"Give all upgrades at no costs"
+		"pl"                    "Daj wszystkie ulepszenia za darmo"
 	}
 	
 	"Adminflags hint"
@@ -538,6 +592,7 @@
 	"Adminflags Admin Denied Warning"
 	{
 		"en"			"NO ACCESS"
+		"pl"                    "BRAK DOSTĘPU"
 	}
 	
 	"Adminflags Admin Inform OK"
@@ -579,6 +634,7 @@
 		// 1: The name of the player who's upgrades should be upgraded.
 		"#format"	"{1:N}"
 		"en"			"Do you really want to set all upgrades to the maximal level for {1}?"
+		"pl"                    "Czy na pewno chcesz ustawić wszystkie ulepszenia gracza {1} na maksymalny poziom"
 	}
 	
 	"Inform player upgrades maxed"
@@ -586,6 +642,7 @@
 		// 1: The name of the player who's upgrades got set to the maximal level.
 		"#format"	"{1:N}"
 		"en"			"{1} now has all upgrades on max."
+		"pl"                    "{1} ma teraz wszystkie ulepszenia na maksymalnym poziomie."
 	}
 	
 	"Change player upgrade level"
@@ -593,6 +650,7 @@
 		// 1: Name of player who's upgrade level should be changed.
 		"#format"	"{1:N}"
 		"en"			"Change {1}'s upgrade level"
+		"pl"                    "Zmień poziom ulepszenia gracza {1}."
 	}
 	
 	"Current player upgrade level"
@@ -607,46 +665,55 @@
 	"Reset player upgrade level 0"
 	{
 		"en"			"Reset to level 0"
+		"pl"                    "Zresetuj poziom do zera"
 	}
 	
 	"Remove player upgrade level"
 	{
 		"en"			"Remove a level"
+		"pl"                    "Usuń poziom ulepszenia gracza"
 	}
 	
 	"Add player upgrade level"
 	{
 		"en"			"Add a level"
+		"pl"                    "Dodaj poziom ulepszenia gracza"
 	}
 	
 	"Set player upgrade level to max"
 	{
 		"en"			"Set to maximal level"
+		"pl"                    "Ustaw poziom ulepszenia gracza do maksymalnego poziomu"
 	}
 	
 	"Take player upgrade level full refund"
 	{
 		"en"			"Take level with full refund"
+		"pl"                    "Zabierz poziom gracza z pełnym zwrotem"
 	}
 	
 	"Force player sell upgrade level"
 	{
 		"en"			"Force to sell level"
+		"pl"                    "Zmuś gracza do sprzedania poziomu ulepszenia"
 	}
 	
 	"Take player upgrade level no refund"
 	{
 		"en"			"Take level with no refund"
+		"pl"                    "Zabierz poziom ulepszenia gracza bez zwrotu"
 	}
 	
 	"Give player upgrade level for free"
 	{
 		"en"			"Give level for free"
+		"pl"                    "Daj poziom ulepszenia graczowi za darmo"
 	}
 	
 	"Force player buy upgrade level"
 	{
 		"en"			"Force to buy level"
+		"pl"                    "Zmuś gracza do kupna poziomu ulepszenia"
 	}
 	
 	"Admin reset player upgrades notification"
@@ -658,6 +725,7 @@
 		// 5: Returned credits for the bought upgrade levels. Full refund = same amount player payed for it.
 		"#format"	"{1:N},{2:s},{3:d},{4:d},{5:d}"
 		"en"			"Reset {1}'s upgrade {2} with full refund of all upgrade costs. Upgrade level changed from {3} to {4} and the player earned {5} credits."
+		"pl"                    "Reset {1} ulepszenia {2} z pełnym zwrotem za wszystkie koszta ulepszenia. Poziom ulepszenia zmienił się z {3} na {4} i gracz uzyskał {5} kredytów."
 	}
 	
 	"Admin force buy insufficient funds"
@@ -675,16 +743,19 @@
 		// 1: Shortname of the upgrade (used in commands to reference it)
 		"#format"	"{1:s}"
 		"en"			"Short name: {1}"
+		"pl"                    "Skrócona nazwa: {1}"
 	}
 	
 	"Admin disable upgrade"
 	{
 		"en"			"Disable upgrade"
+		"pl"                    "Wyłącz ulepszenie"
 	}
 	
 	"Admin enable upgrade"
 	{
 		"en"			"Enable upgrade"
+		"pl"                    "Włącz ulepszenie"
 	}
 	
 	"Admin upgrade info maxlevel barrier"
@@ -692,6 +763,7 @@
 		// 1: Maximal level the upgrade can be set to / supports.
 		"#format"	"{1:d}"
 		"en"			"Maxlevel barrier: {1}"
+		"pl"                    "Maksymalna bariera poziomu: {1}"
 	}
 	
 	"Admin upgrade info maxlevel"
@@ -699,6 +771,7 @@
 		// 1: Current maximal level of the upgrade.
 		"#format"	"{1:d}"
 		"en"			"Maxlevel: {1}"
+		"pl"                    "Maksymalny poziom: {1}"
 	}
 	
 	"Admin upgrade info cost"
@@ -706,6 +779,7 @@
 		// 1: Current upgrade starting cost.
 		"#format"	"{1:d}"
 		"en"			"Cost: {1}"
+		"pl"                    "Koszt: {1}"
 	}
 	
 	"Admin upgrade info increase cost"
@@ -713,6 +787,7 @@
 		// 1: Current upgrade increasing cost.
 		"#format"	"{1:d}"
 		"en"			"Increase cost: {1}"
+		"pl"                    "Koszt zwiększenia poziomu ulepszenia: {1}"
 	}
 	
 	"Admin upgrade info teamlock"
@@ -720,6 +795,7 @@
 		// 1: Team name of the team this upgrade is locked to.
 		"#format"	"{1:s}"
 		"en"			"Teamlock: {1}"
+		"pl"                    "Blokada drużyny {1}"
 	}
 	
 	"Admin upgrade info visual effects"
@@ -727,6 +803,7 @@
 		// 1: Translated "On" or "Off"
 		"#format"	"{1:t}"
 		"en"			"Visual effects: {1}"
+		"pl"                    "Efekty wizualne: {1}"
 	}
 	
 	"Admin upgrade info sound effects"
@@ -734,6 +811,7 @@
 		// 1: Translated "On" or "Off"
 		"#format"	"{1:t}"
 		"en"			"Sound effects: {1}"
+		"pl"                    "Efekty dźwiękowe: {1}"
 	}
 	
 	"Admin upgrades change maxlevel"
@@ -741,6 +819,7 @@
 		// 1: Current upgrade's maxlevel.
 		"#format"	"{1:d}"
 		"en"			"Change maxlevel temporarily: {1}"
+		"pl"                    "Zmień tymczasowo maksymalny level: {1}"
 	}
 	
 	"Admin upgrades change start cost"
@@ -748,6 +827,7 @@
 		// 1: Current upgrade's start cost.
 		"#format"	"{1:d}"
 		"en"			"Change start cost temporarily: {1}"
+		"pl"                    "Zmień tymczasowo startowy koszt ulepszenia: {1}"
 	}
 	
 	"Admin upgrades change increasing cost"
@@ -755,6 +835,7 @@
 		// 1: Current upgrade's increasing cost.
 		"#format"	"{1:d}"
 		"en"			"Change increasing cost temporarily: {1}"
+		"pl"                    "Zmień zwiększający się koszt ulepszenia tymczasowo: {1}"
 	}
 	
 	
@@ -762,116 +843,139 @@
 	"rpgmenu short desc"
 	{
 		"en"			"Opens the rpg main menu"
+		"pl"                    "Otwiera główne menu RPG"
 	}
 	
 	"rpgmenu desc"
 	{
 		"en"			"Opens the rpg main menu. You can buy or sell upgrades, view your stats, view this command list and change other settings."
+		"pl"                    "Otwiera główne menu RPG. Możesz kupić, lub sprzedać ulepszenia, wyświetlić swoje statystyki, zobaczyć liste komend oraz zmienić inne ustawienia"
 	}
 	
 	"rpgmenu advert"
 	{
 		"en"			"Type {N}rpgmenu{G} to open the main rpg menu and {N}manage your upgrades{G} and other options."
+		"pl"                    "Napisz {N}rpgmenu{G} żeby otworzyć główne menu RPG i zarządzać swoimi ulepszeniami i innymi opcjami."
 	}
 	
 	"rpgrank short desc"
 	{
 		"en"			"Shows your rank or the rank of the target person"
+		"pl"                    "Pokazuje Twój ranking lub wybranego gracza"
 	}
 	
 	"rpgrank desc"
 	{
 		"en"			"Shows your rank or the rank of the target person. Usage: {N}rpgrank [name|#steamid|#userid]"
+		"pl"                    "Pokazuje Twój ranking lub wybranego gracza. Użycie: {N}rpgrank [name|#steamid|#userid]"
 	}
 	
 	"rpgrank advert"
 	{
 		"en"			"Type {N}rpgrank{G} to display your own stats or {N}rpgrank <playername>{G} to display the rank of other players."
+		"pl"                    "Napisz {N}rpgrank{G} żeby wyświetlić swoje statystyki, lub {rpgrank <nazwa gracza>{G} aby wyświetlić ranking innego gracza."
 	}
 	
 	"rpginfo short desc"
 	{
 		"en"			"Shows the purchased upgrades of the target person"
+		"pl"                    "Pokazuje kupione ulepszenia wybranego gracza"
 	}
 	
 	"rpginfo desc"
 	{
 		"en"			"Shows the purchased upgrades of the target person. Usage: {N}rpginfo <name|#steamid|#userid>"
+		"pl"                    "Pokazuje kupione ulepszenia wybranego gracza. Użycie: {N}rpginfo <name|#steamid|#userid>"
 	}
 	
 	"rpginfo advert"
 	{
 		"en"			"Type {N}rpginfo <playername>{G} to view what upgrades other players have bought."
+		"pl"                    "Napisz {N}rpginfo <nazwa gracza>{G} żeby wyświetlić jakie ulepszenia kupił inny gracz."
 	}
 	
 	"rpgtop10 short desc"
 	{
 		"en"			"Show the SM:RPG top 10"
+		"pl"                    "Pokazuje SM:RPG top10"
 	}
 	
 	"rpgtop10 desc"
 	{
 		"en"			"Show the top 10 ranked RPG players on this server."
+		"pl"                    "Pokazuje top 10 najlepszych graczy RPG na tym serwerze"
 	}
 	
 	"rpgtop10 advert"
 	{
 		"en"			"Type {N}rpgtop10{G} to view the top 10 ranked RPG players on this server."
+		"pl"                    "Napisz {N}rpgtop10{G} aby zobaczyć top 10 najlepszych graczy RPG na tym serwerze."
 	}
 	
 	"rpgnext short desc"
 	{
 		"en"			"Show the next ranked players before you"
+		"pl"                    "Pokazuje następnego gracza rankingowego przed Tobą"
 	}
 	
 	"rpgnext desc"
 	{
 		"en"			"Show a list of players which are right before you in the ranking."
+		"pl"                    "Pokazuje liste graczy w rankingu którzy są przed Tobą."
 	}
 	
 	"rpgnext advert"
 	{
 		"en"			"Type {N}rpgnext{G} to view a list of players, which are right before you in the ranking."
+		"pl"                    "Type {N}rpgnext{G} żeby zobaczyć listę graczy, którzy są tuż przed Tobą w rankingu."
 	}
 	
 	"rpgsession short desc"
 	{
 		"en"			"Show your current session rpg stats"
+		"pl"                    "Pokaż aktualne statystyki RPG tej sesji"
 	}
 	
 	"rpgsession desc"
 	{
 		"en"			"Show statistics about how you performed in your current session."
+		"pl"                    "Pokazuje statystyki jak się sprawowałeś podczas aktualnej sesji."
 	}
 	
 	"rpgsession advert"
 	{
 		"en"			"Type {N}rpgsession{G} to check how your statistics changed in your current session."
+		"pl"                    "Napisz {G}rpgsession{G} aby wyświetlić jak zmieniły się Twoje statystyki w aktualnej sesji."
 	}
 	
 	"rpghelp short desc"
 	{
 		"en"			"Show help about upgrades"
+		"pl"                    "Pokaż pomoc na temat ulepszeń"
 	}
 	
 	"rpghelp desc"
 	{
 		"en"			"Show the SM:RPG help menu where you get detailed descriptions of the different available upgrades."
+		"pl"                    "Pokaż menu pomocy SM:RPG gdzie możesz zobaczyć dokładne opisy różnych dostępnych ulepszeń."
 	}
 	
 	"rpghelp advert"
 	{
 		"en"			"Type {N}rpghelp{G} to get a detailed description of what the upgrades do."
+		"pl"                    "Napisz {N}rpghelp{G} żeby zobaczyć dokładny opis tego, co robią dane ulepszenia."
 	}
 	
 	"rpgexp short desc"
 	{
 		"en"			"Show latest earned experience"
+		"pl"                    "Pokaż ostatnie powody przez które zdobyłeś doświadczenie"
 	}
 	
 	"rpgexp desc"
 	{
 		"en"			"Show the amount and reasons for the latest experience you've earned."
+		"pl"                    "Pokaż ilośc oraz powód za który dostałeś ostatnio doświadczenie."
 	}
 	
 	"rpgexp advert"
@@ -879,5 +983,6 @@
 		// 1: Value of smrpg_lastexperience_count. The amount of experience saved in the array.
 		"#format" "{1:d}"
 		"en"			"Type {N}rpgexp{G} to see a list of the latest {1} reasons and amounts of experience you've earned."
+		"pl"                    "Napisz {N}rpgexp{G} aby zobaczyć liste ostatnią {1} zdobytego doświadczenia oraz powody."
 	}
 }
