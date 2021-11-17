@@ -5,11 +5,13 @@
 		// 1: Running SM:RPG plugin version (e.g. 1.0)
 		"#format" "{1:s}"
 		"en"			"This server is running SM:RPG v{1}."
+		"pl"			"Ten serwer korzysta z SM:RPG v{1}."
 	}
 	
 	"Advertise rpgmenu command"
 	{
 		"en"			"{G}Type \"{N}rpgmenu{G}\" to bring up your options."
+		"pl"			"{G}Napisz \"{N}rpgmenu{G}\" aby wyświetlić opcje."
 	}
 	
 	"Client level changed"
@@ -18,6 +20,7 @@
 		// 2: New rpg level of the client
 		"#format"	"{1:N},{2:d}"
 		"en"			"{1} is now level {2}."
+		"pl"			"{1} awansował na level {2}"
 	}
 	
 	"You have new credits"
@@ -25,17 +28,20 @@
 		// 1: Total amount of credits the player currently has.
 		"#format"	"{1:d}"
 		"en"			"You have new credits ({1} total). Type \"rpgmenu\" to buy upgrades."
+		"pl"			"Otrzymałeś kredyty ({1} łącznie). Wpisz \"rpgmenu\" aby zakupić ulepszenia."
 	}
 	
 	//Newbie Text
 	"Newbie instructions new level"
 	{
 		"en"			"{G}You have gained a {N}new level{G}! This means you can {N}buy upgrades{G} which give you an advantage over your opponents."
+		"pl"			"{G}Osiągnąłeś {N}nowy poziom{G}! Oznacza to, że możesz kupić nowe ulepszenia!"
 	}
 	
 	"Newbie instructions use rpgmenu"
 	{
 		"en"			"{G}Type \"{L}rpgmenu{G}\" in chat, or type it into the console to bring up a menu from which you can buy upgrades."
+		"pl"			"{G}Napisz \"{L}rpgmenu{G}\" aby otworzyć menu z ulepszeniami."
 	}
 	
 	//Experience Hintbox
@@ -46,6 +52,7 @@
 		// 3: Amount of experience needed to reach the next level.
 		"#format"	"{1:d},{2:d},{3:d}"
 		"en"			"Experience Gained: {1}+\nExperience Quota: {2}/{3}"
+		"pl"			"Zdobyte doświadczenie: {1}+\nNastępny level: {2}/{3}
 	}
 	
 	"rpgrank"
@@ -59,11 +66,13 @@
 		// 7: Amount of rpg credits of the player.
 		"#format"	"{1:N},{2:d},{3:d},{4:d},{5:d},{6:d},{7:d}"
 		"en"			"{1} is level {2}, ranked {3}/{4} with {5}/{6} experience and {7} credits"
+		"pl"			"{1} posiada {2} level. Jest w rankingu {3}/{/4} posiadając {5}/{6} expa i {7} kredytów"
 	}
 	
 	"Top 10 Players"
 	{
 		"en"			"Top 10 SM:RPG Players"
+		"pl"			"Top 10 Graczy SM:RPG"
 	}
 	
 	"Next ranked players"
