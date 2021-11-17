@@ -3,6 +3,7 @@
 	"RPG stats"
 	{
 		"en"			"RPG stats"
+		"pl"                    "Statystyki RPG"
 	}
 
 	"Show for other player"
@@ -11,25 +12,30 @@
 		// 2: Name of the target client.
 		"#format"		"{1:t},{2:N}"
 		"en"			"{1} for {2}"
+		"pl"                    "{1} dla {2}"
 	}
 
 	"Player is AFK"
 	{
 		"en"			"Player is AFK"
+		"pl"                    "Gracz jest AFK"
 	}
 
 	"Hide stats info panel"
 	{
 		"en"			"Hide stats info panel"
+		"pl"                    "Ukryj panel informacyjny"
 	}
 
 	"Last Experience Short"
 	{
 		"en"			"Last experience"
+		"pl"                    "Ostatnie zdobyte doświadczenie"
 	}
 
 	"Estimated time until levelup"
 	{
 		"en"			"Levelup in"
+		"pl"                    "Levelup za"
 	}
 }
