@@ -6,6 +6,7 @@
 		// 2: Player name of victim.
 		"#format"		"{1:d},{2:N}"
 		"en"			"You earned {RB}{1}{G} experience for killing {N}{2}{G}."
+		"pl"                    "Zdobyłeś {RB}{1}{G} doświaczenia za zabicie {N}{2}{G}."
 	}
 
 	"Total earned experience during past life"
@@ -13,15 +14,18 @@
 		// 1: Experience earned during last life
 		"#format"		"{1:d}"
 		"en"			"You earned {RB}{1}{G} experience in total during your last life!"
+		"pl"                    "Zdobyłeś {RB}{1}{G} doświadczenia podczas ostatniej śmierci/rundy!"
 	}
 	
 	"Print xp for last kill in chat"
 	{
 		"en"			"Print earned experience for last kill in chat"
+		"pl"                    "Wyświetl zdobyte doświadczenie za ostatnie zabójstwo na chacie"
 	}
 
 	"Print total xp last life in chat"
 	{
 		"en"			"Print total experience earned during last life in chat"
+		"pl"                    "Wyświetl zdobyte doświadczenie podczas ostatniej rundy/życia na chacie"
 	}
 }
