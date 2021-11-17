@@ -3,10 +3,12 @@
 	"Commands"
 	{
 		"en"			"Commands"
+		"pl"                    "Komendy"
 	}
 	
 	"Hide chat adverts"
 	{
 		"en"			"Hide available command messages in chat"
+		"pl"                    "Ukryj dostępne komendy wyświetlane na chacie"
 	}
 }
