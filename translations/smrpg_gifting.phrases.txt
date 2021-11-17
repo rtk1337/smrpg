@@ -3,20 +3,24 @@
   "Don't give yourself a gift"
   {
     "en"  "There is no point in giving yourself a gift."
+    "pl"  "Nie ma sensu w dawaniu sobie samemu prezentu."
   }
   "Need at least 1 credit"
   {
     "en"  "You need to give at least 1 credit!"
+    "pl"  "Musisz dać przynajmniej 1 kredyt!"
   }
   "You don't have enough credits"
   {
     "en"  "You don't have enough credits."
+    "pl"  "Nie masz wystarczającej ilości kredytów."
   }
   "You have to be min level"
   {
     // 1: Minimum level from which you are allowed to gift credits to someone.
     "#format" "{1:d}"
     "en"  "You have to be at least {N}level {1}{G} to gift credits to someone."
+    "pl"  "Musisz mieć przynajmniej {N}poziom {1}{G} żeby dać komuś kredyty."
   }
   "Failed to give credits"
   {
@@ -24,6 +28,7 @@
     // 2: The name of the receiver.
     "#format" "{1:d},{2:N}"
     "en"  "Failed to give {1} credits to {2}."
+    "pl"  "Nie udało się dać {1} kredytów dla {2}."
   }
   "Fatal Error giving credits. Credits lost."
   {
@@ -31,6 +36,7 @@
     // 2: The name of the receiver.
     "#format" "{1:d},{2:N}"
     "en"  "Failed to give {1} credits to {2} and I'm unable to give you your credits back. Contact an admin!"
+    "pl"  "Nie udało się dać {1} kredytów dla {2} i nie jestem wstanie CI ich zwrócić. Pilnie skontaktuj się z adminem!"
   }
   "Gave credits as a gift"
   {
@@ -39,17 +45,21 @@
     // 3: The name of the receiver.
     "#format" "{1:N},{2:d},{3:N}"
     "en"  "{1} gave {2} credits to {3} as a present!"
+    "pl"  "{1} dał {2} kredytów dla {3} jako prezent!"
   }
   "rpggift short desc"
   {
     "en"  "Give your credits to some other player."
+    "pl"  "Daj swoje kredyty innemu graczowi."
   }
   "rpggift desc"
   {
     "en"  "Give your credits to some other player. Usage: {N}rpggift <#userid|authid|name> <credits>"
+    "pl"  "Daj swoje kredyty innemu graczowi. Użycie: {N}rpggift <#userid|authid|nazwa> <kredyty>"
   }
   "rpggift advert"
   {
     "en"  "Type {N}rpggift{G} to give credits to other players as a {N}present{G}!"
+    "pl"  "Napisz {N}rpggift{G} aby dać kredyty innym graczom jako {N}prezent{G}!"
   }
 }
